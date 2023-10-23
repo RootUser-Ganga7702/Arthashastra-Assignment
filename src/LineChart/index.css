@@ -1,0 +1,14 @@
+@media screen and (max-width: 575px) {
+  .medalwon-Word {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .year-word {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  .line-chart {
+    margin: 0px;
+  }
+}

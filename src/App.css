@@ -1,0 +1,142 @@
+.name-field {
+  font-family: "Serif";
+  font-size: 80px;
+}
+.removeClass {
+  color: #060708;
+  margin-right: 30px;
+  font-size: 25px;
+}
+.addColor {
+  color: #4287f5;
+  margin-right: 30px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.table-tab {
+  margin-right: 30px;
+  font-size: 50px;
+}
+.chart-tab {
+  font-size: 50px;
+}
+.set-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+@media screen and (max-width: 575px) {
+  .name-field {
+    font-family: "Serif";
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .my-name {
+    font-family: "Serif";
+    font-size: 20px;
+    margin: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .email-field {
+    font-family: "Serif";
+    font-size: 15px;
+    margin: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .my-email {
+    font-family: "Serif";
+    font-size: 14px;
+    margin: 10px;
+    color: #5493ff;
+    font-weight: bold;
+  }
+  .contact-field {
+    font-family: "Serif";
+    font-size: 20px;
+    margin: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .my-contact {
+    font-family: "Serif";
+    font-size: 20px;
+    margin: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .name-field {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .my-name {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .email-field {
+    font-size: 28px;
+    margin: 10px;
+  }
+  .my-email {
+    font-size: 25px;
+    margin: 10px;
+    color: #5493ff;
+  }
+  .contact-field {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .my-contact {
+    font-size: 30px;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .name-field {
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  .my-name {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .email-field {
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 50px;
+  }
+  .my-email {
+    font-size: 18px;
+    margin: 10px;
+    color: #5493ff;
+  }
+  .contact-field {
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 50px;
+  }
+  .my-contact {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .large-device {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7fae8;
+    margin-bottom: 0px;
+  }
+}

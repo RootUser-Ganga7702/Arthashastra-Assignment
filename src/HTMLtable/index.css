@@ -1,0 +1,141 @@
+.pageBg-1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-1 {
+  font-family: "roboto";
+  color: #50968f;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.border-1 {
+  color: #454f4b;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.thread-one {
+  color: #454f4b;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.id-column {
+  width: 100px;
+  font-family: "Roboto";
+  height: 60px;
+  font-size: 30px;
+  background-color: #d9faed;
+  font-weight: bold;
+}
+.year-column {
+  width: 200px;
+  font-family: "Roboto";
+  height: 60px;
+  font-size: 30px;
+  background-color: #d9faed;
+  font-weight: bold;
+}
+.medals-column {
+  width: 200px;
+  font-family: "Roboto";
+  height: 60px;
+  font-size: 30px;
+  background-color: #d9faed;
+  font-weight: bold;
+}
+.id-row {
+  font-family: "Roboto";
+  height: 30px;
+  font-size: 24px;
+  background-color: #fad9e2;
+  font-weight: bold;
+  text-align: center;
+}
+.year-row {
+  font-family: "Roboto";
+  height: 30px;
+  font-size: 24px;
+  background-color: #fad9e2;
+  font-weight: bold;
+  text-align: center;
+}
+.medal-row {
+  font-family: "Roboto";
+  height: 30px;
+  font-size: 24px;
+  background-color: #fad9e2;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .heading-1 {
+    font-family: "roboto";
+    color: #50968f;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .heading-1 {
+    font-family: "roboto";
+    color: #50968f;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .heading-1 {
+    font-family: "roboto";
+    color: #50968f;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .id-column {
+    width: 160px;
+    height: 80px;
+    font-size: 50px;
+    background-color: #d9faed;
+    font-weight: bold;
+  }
+  .year-column {
+    width: 280px;
+    height: 80px;
+    font-size: 50px;
+    background-color: #d9faed;
+    font-weight: bold;
+  }
+  .medals-column {
+    width: 280px;
+    height: 70px;
+    font-size: 50px;
+    background-color: #d9faed;
+    font-weight: bold;
+  }
+  .id-row {
+    height: 45px;
+    font-size: 40px;
+    background-color: #fad9e2;
+    font-weight: bold;
+    text-align: center;
+  }
+  .year-row {
+    height: 45px;
+    font-size: 40px;
+    background-color: #fad9e2;
+    font-weight: bold;
+    text-align: center;
+  }
+  .medal-row {
+    height: 45px;
+    font-size: 40px;
+    background-color: #fad9e2;
+    font-weight: bold;
+    text-align: center;
+  }
+}
