@@ -2,6 +2,19 @@ import React from "react";
 import HtmlTable from "../src/HTMLtable/index";
 import LineChartData from "../src/LineChart/index";
 import "./App.css";
+import { initializeApp } from "firebase/app";
+const firebaseConfig = {
+  apiKey: "AIzaSyA1DHgrrpvGE_6UooS6hBEfwRXtPcNFg78",
+  authDomain: "arthashastra-web.firebaseapp.com",
+  databaseURL: "https://arthashastra-web-default-rtdb.firebaseio.com",
+  projectId: "arthashastra-web",
+  storageBucket: "arthashastra-web.appspot.com",
+  messagingSenderId: "506878000195",
+  appId: "1:506878000195:web:24fb814c59d769276c28f6",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 class App extends React.Component {
   state = {
